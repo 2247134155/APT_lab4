@@ -1,0 +1,13 @@
+wireless-10-146-166-108:APT_lab4 xiangchenge$ vim Mp3Player.java
+wireless-10-146-166-108:APT_lab4 xiangchenge$ vim TestMp3Player.java
+wireless-10-146-166-108:APT_lab4 xiangchenge$ vim MockMp3Player.java
+wireless-10-146-166-108:APT_lab4 xiangchenge$ vim MockMp3Player.java 
+wireless-10-146-166-108:APT_lab4 xiangchenge$ javac -cp .:./libs/* TestMp3Player.java Mp3Player.java MockMp3Player.java
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+wireless-10-146-166-108:APT_lab4 xiangchenge$ java -cp .:./libs/* org.junit.runner.JUnitCore TestMp3Player
+JUnit version 4.11
+...
+Time: 0.006
+
+OK (3 tests)
