@@ -1,0 +1,35 @@
+Xiangchens-MacBook-Pro:APT_lab4 xiangchenge$ javac -cp .:./libs/* SelExercise.java 
+Xiangchens-MacBook-Pro:APT_lab4 xiangchenge$ java -cp .:./libs/*  SelExercise
+Validating passwords of Andy , Bob and Charley
+Passed, Entered username -> andy and password -> apple
+Passed, Entered username -> bob and password -> bathtub
+Passed, Entered username -> charley and password -> china
+Wait 10 seconds to prevent frequent login error!
+To check if username is case insensitive and username-password combination can have whitespaces.
+Entered username -> aNdy  and password -> null
+Failed! Invalid user-password combination aNdy ,null
+Entered username -> bOb and password -> null
+Failed! Invalid user-password combination bOb,null
+Entered username -> ChARley and password -> null
+Failed! Invalid user-password combination ChARley,null
+Verified that username is case insensitive
+Input temperature 3.14
+Passed! Output temperature -16.03
+Input temperature 212
+Failed! Output temperature 100
+Input temperature 42
+Passed! Output temperature 5.56
+Input temperature -500
+Failed! Output temperature -295.56
+Input temperature 666
+Failed! Output temperature 352.22
+Input temperature 789
+Failed! Output temperature 420.56
+Testing for case insensitivity of parameter input farenheitTemperature=-42
+Testing for case insensitivity of parameter input FARENHEitTemperature=-42
+Failed! Parameter check test failed as they are case sensitive!
+Testing for Exception with input as 98NIMA
+Passed, NumberFormatException as expected
+Testing for Exception with input as 9.73E2
+Failed, No NumberFormatException
+Xiangchens-MacBook-Pro:APT_lab4 xiangchenge$ 
